@@ -1,7 +1,9 @@
+using BindingAttributeInheritance.Drivers;
+
 namespace BindingAttributeInheritance.StepDefinitions
 {
     [Binding]
-    public sealed class CalculatorStepDefinitions
+    public sealed class CalculatorStepDefinitions : CalculatorDriver
     {
         private int _firstNumber;
 
